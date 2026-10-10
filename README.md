@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ziho7/idea-validator/releases"><img src="https://img.shields.io/github/v/release/ziho7/idea-validator?color=bfff75&label=release" alt="Release"></a>
+  <a href="https://github.com/ziho7/idea-validator/releases"><img src="https://img.shields.io/badge/release-v0.1.0-bfff75" alt="Release"></a>
   <a href="https://github.com/ziho7/idea-validator/actions/workflows/validate.yml"><img src="https://github.com/ziho7/idea-validator/actions/workflows/validate.yml/badge.svg" alt="Validation"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-a0d9ff" alt="MIT license"></a>
   <img src="https://img.shields.io/badge/Agent_Skill-Codex-102e32" alt="Agent Skill for Codex">
