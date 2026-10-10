@@ -1,0 +1,4 @@
+interface:
+  display_name: "Idea Validator"
+  short_description: "用真实用户证据验证产品想法、需求强度与付费信号，设计下一步实验"
+  default_prompt: "使用 $idea-validator 验证我的产品想法，搜索真实痛点、现有替代方案与反证，并给出下一步实验。"

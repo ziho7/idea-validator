@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">Idea Validator — Before you build, find the evidence.</title>
+  <desc id="desc">A research skill that turns an idea into user evidence, counterevidence and a next experiment.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#081c21"/><stop offset="1" stop-color="#102e32"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#315355" opacity=".55"/></pattern>
+  </defs>
+  <rect width="1280" height="520" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="520" rx="24" fill="url(#dots)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="56" y="48" width="32" height="32" rx="9" fill="#bfff75"/>
+    <path d="m65 64 6 6 10-13" fill="none" stroke="#102e32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="103" y="71" fill="#f4f8f2" font-size="23" font-weight="700">IDEA VALIDATOR</text>
+    <text x="56" y="170" fill="#f4f8f2" font-size="62" font-weight="700" letter-spacing="-2">Before you build,</text>
+    <text x="56" y="242" fill="#bfff75" font-size="62" font-weight="700" letter-spacing="-2">find the evidence.</text>
+    <text x="59" y="299" fill="#afc7c7" font-size="20">Real complaints. Existing alternatives. A clearer next step.</text>
+    <rect x="56" y="352" width="131" height="36" rx="18" fill="#234345"/>
+    <text x="78" y="376" fill="#dce8e3" font-size="14">REDDIT + WEB</text>
+    <rect x="201" y="352" width="141" height="36" rx="18" fill="#234345"/>
+    <text x="223" y="376" fill="#dce8e3" font-size="14">SOURCE LINKS</text>
+    <rect x="356" y="352" width="151" height="36" rx="18" fill="#234345"/>
+    <text x="379" y="376" fill="#dce8e3" font-size="14">COUNTERCHECK</text>
+    <path d="M865 140v228" stroke="#476766" stroke-width="2" stroke-dasharray="5 7"/>
+    <g transform="translate(818 98)">
+      <rect width="400" height="91" rx="16" fill="#17383a" stroke="#416360"/>
+      <circle cx="46" cy="45" r="19" fill="#bfff75"/>
+      <text x="35" y="50" fill="#18332b" font-size="13" font-weight="700">01</text>
+      <text x="82" y="39" fill="#eff6ef" font-size="20" font-weight="700">Find the pain</text>
+      <text x="82" y="66" fill="#abc5c2" font-size="15">Context, cost, workarounds</text>
+    </g>
+    <g transform="translate(818 214)">
+      <rect width="400" height="91" rx="16" fill="#17383a" stroke="#416360"/>
+      <circle cx="46" cy="45" r="19" fill="#ffc18f"/>
+      <text x="35" y="50" fill="#422d1b" font-size="13" font-weight="700">02</text>
+      <text x="82" y="39" fill="#eff6ef" font-size="20" font-weight="700">Challenge the idea</text>
+      <text x="82" y="66" fill="#abc5c2" font-size="15">Alternatives, friction, counterevidence</text>
+    </g>
+    <g transform="translate(818 330)">
+      <rect width="400" height="91" rx="16" fill="#17383a" stroke="#416360"/>
+      <circle cx="46" cy="45" r="19" fill="#a0d9ff"/>
+      <text x="35" y="50" fill="#143343" font-size="13" font-weight="700">03</text>
+      <text x="82" y="39" fill="#eff6ef" font-size="20" font-weight="700">Choose the next test</text>
+      <text x="82" y="66" fill="#abc5c2" font-size="15">A decision with traceable evidence</text>
+    </g>
+    <path d="M56 448h1162" stroke="#315153"/>
+    <text x="58" y="482" fill="#83a6a5" font-size="14" letter-spacing="1.8">OPEN-SOURCE AGENT SKILL</text>
+    <text x="1218" y="482" text-anchor="end" fill="#83a6a5" font-size="14">An idea is a starting point. Evidence moves it forward.</text>
+  </g>
+</svg>

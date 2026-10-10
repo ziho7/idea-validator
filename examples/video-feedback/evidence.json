@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "idea": "为英语市场自由职业视频剪辑师，将邮件和聊天中的客户反馈整理为带来源及时间码的修改任务。",
+  "research_date": "2026-10-10",
+  "mode": "custom",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "自由职业剪辑师会收到跨邮件、聊天、审片工具的分散反馈"
+    },
+    {
+      "id": "H2",
+      "statement": "这种分散造成显著、反复的可计量损失"
+    },
+    {
+      "id": "H3",
+      "statement": "现有审片工具缺少时间码评论和任务管理"
+    },
+    {
+      "id": "H4",
+      "statement": "客户不切换沟通习惯时，跨渠道归集仍有价值"
+    },
+    {
+      "id": "H5",
+      "statement": "剪辑师愿意为独立归集工具付费"
+    },
+    {
+      "id": "H6",
+      "statement": "可以可靠地把模糊自然语言反馈自动变成准确时间码"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "site.reddit.com/r/editors client feedback email whatsapp frame.io revisions",
+      "purpose": "support",
+      "outcome": "返回跨渠道抱怨和现有工具建议；选读原帖，不按搜索结果数计需求。"
+    },
+    {
+      "query": "site.reddit.com/r/videography client feedback frame io email timestamps",
+      "purpose": "support",
+      "outcome": "返回采用摩擦与现有工具使用讨论。"
+    },
+    {
+      "query": "site.frame.io help comments timestamp review links",
+      "purpose": "alternatives",
+      "outcome": "定位并打开 Frame.io V4 官方时间码评论及评论管理文档。"
+    },
+    {
+      "query": "site.creativecow.net forums client feedback frame.io email revisions",
+      "purpose": "counter",
+      "outcome": "找到采用 Frame.io 改善邮件审片的历史原帖，作为现成替代反证。"
+    },
+    {
+      "query": "site.liftgammagain.com client feedback frame.io email",
+      "purpose": "counter",
+      "outcome": "返回包括 Reddit 客户采用摩擦和替代行为的混合结果；没有从该指定论坛选入直接证据。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "url": "https://www.reddit.com/r/videography/comments/1sybl2j/how_are_you_handling_client_feedback_on_video/",
+      "title": "how are you handling client feedback on video revisions without losing your mind",
+      "platform": "Reddit / r/videography",
+      "source_type": "user_discussion",
+      "published_at": null,
+      "retrieved_at": "2026-10-10",
+      "access": "partial",
+      "excerpt": "usually it turns into some mix of google drive, whatsapp, email, voice notes, loom etc.",
+      "summary": "作者自述跨多个渠道接收反馈并浪费时间，未给出可量化耗时；评论提出统一渠道和单一汇总人等替代。",
+      "segment": "部分匹配：作者自述曾做自由设计/动效，目前经营机构；地区与实际职业身份未验证。",
+      "identity_basis": "self_reported",
+      "behavior": "公开求助，描述沿用多个沟通渠道。",
+      "payment_signal": "none",
+      "stance": "mixed",
+      "hypothesis_ids": [
+        "H1",
+        "H2",
+        "H4"
+      ],
+      "independence_group": "reddit-thread-1sybl2j",
+      "limitations": [
+        "搜索正文显示 2026-04-28，打开页仅为 5mo ago；精确发布日期未独立核实，设 null。",
+        "读取主帖与部分可见评论，不保证折叠评论完整。",
+        "同帖推广评论排除，不能把回复计为独立买家。"
+      ],
+      "pain": "分散反馈与含糊描述",
+      "frequency": null,
+      "cost": null,
+      "workaround": "评论建议统一审片入口、客户方汇总人和限定反馈轮次"
+    },
+    {
+      "id": "E2",
+      "url": "https://www.reddit.com/r/editors/comments/1rw7un5/client_not_using_frame_io_correctly_frustrating/",
+      "title": "Client Not Using Frame IO Correctly Frustrating",
+      "platform": "Reddit / r/editors",
+      "source_type": "user_discussion",
+      "published_at": null,
+      "retrieved_at": "2026-10-10",
+      "access": "partial",
+      "excerpt": "However I find a high majority of my clients and collaborators either don't understand how it works or don't like to use it for leaving notes.",
+      "summary": "作者认可 Frame.io 时间码评论，但自述客户采用困难；评论包含培训、Zoom 同步审片、指定联系人等方式。推论：采用习惯可能是机会约束。",
+      "segment": "编辑场景明确，自由职业身份未确认；部分评论为大型媒体公司内部员工。",
+      "identity_basis": "self_reported",
+      "behavior": "使用 Frame.io，客户仍通过其他渠道给意见。",
+      "payment_signal": "unknown",
+      "stance": "supports",
+      "hypothesis_ids": [
+        "H1",
+        "H4"
+      ],
+      "independence_group": "reddit-thread-1rw7un5",
+      "limitations": [
+        "原文相对时间约 7mo ago，搜索摘要约 6 个月前；精确日期未知。",
+        "不能用作者的 high majority 作为市场比例。",
+        "推广评论排除，未核实所有评论者身份及跨帖重合。",
+        "用户对登录的抱怨不证明现行产品要求所有评论者登录。"
+      ],
+      "pain": "客户不采用统一审片流程",
+      "frequency": null,
+      "cost": null
+    },
+    {
+      "id": "E3",
+      "url": "https://www.reddit.com/r/videography/comments/1l73069/what_revision_software_do_you_use_for_clients/",
+      "title": "What revision software do you use for clients?",
+      "platform": "Reddit / r/videography",
+      "source_type": "user_discussion",
+      "published_at": null,
+      "retrieved_at": "2026-10-10",
+      "access": "partial",
+      "excerpt": "Whatever the client can work with.",
+      "summary": "讨论包含现有工具满意用户、邮件时间码工作流以及觉得费用不适合自己的用户。推论：工具价值取决于客户和业务场景。",
+      "segment": "混合个人与团队视频工作者；自由职业身份、收入与地区未知。",
+      "identity_basis": "self_reported",
+      "behavior": "使用 Drive、Frame.io、邮件或其他审片工具；并非拟议新产品的购买行为。",
+      "payment_signal": "none",
+      "stance": "mixed",
+      "hypothesis_ids": [
+        "H1",
+        "H5"
+      ],
+      "independence_group": "reddit-thread-1l73069",
+      "limitations": [
+        "打开页 1y ago，搜索约 1.3 年前；不推导精确日期。",
+        "作为超过默认近期范围的背景证据。",
+        "评论间及跨帖身份独立性未全面核查；费用不值的意见不是已验证付款。"
+      ]
+    },
+    {
+      "id": "E4",
+      "url": "https://creativecow.net/forums/thread/frameio-integration-within-premiere/",
+      "title": "Frame.io integration within Premiere",
+      "platform": "Creative COW",
+      "source_type": "user_discussion",
+      "published_at": "2017-08-08",
+      "retrieved_at": "2026-10-10",
+      "access": "partial",
+      "excerpt": "This was a very inefficient video review system.",
+      "summary": "作者描述过去多人通过长邮件链给修改意见效率低，采用 Frame.io 和 Premiere 扩展后改善流程。",
+      "segment": "客户端视频审片明确，提到商业伙伴；独立自由职业身份未确认。",
+      "identity_basis": "self_reported",
+      "behavior": "从邮件反馈工作流转向现成审片工具。",
+      "payment_signal": "unknown",
+      "stance": "mixed",
+      "hypothesis_ids": [
+        "H1",
+        "H3"
+      ],
+      "independence_group": "creativecow-frameio-integration-within-premiere",
+      "limitations": [
+        "历史原帖；不能据此断言当前版本表现。",
+        "作者声明无利益关系，未外部核实。",
+        "官方现行能力以 E5/E6 复核。"
+      ],
+      "quote_locator": "主帖：Posted by Greg Janza on August 8, 2017"
+    },
+    {
+      "id": "E5",
+      "url": "https://help.frame.io/en/articles/9105251-commenting-on-your-media",
+      "title": "Commenting on your media",
+      "platform": "Frame.io V4 Knowledge Center",
+      "source_type": "vendor_documentation",
+      "published_at": null,
+      "retrieved_at": "2026-10-10",
+      "access": "full",
+      "excerpt": "Single-frame comments",
+      "summary": "官方文档描述单帧、时间范围评论及标注，反驳缺少时间码评论的假设。",
+      "segment": "竞争产品能力资料，不是目标买家样本。",
+      "identity_basis": "unknown",
+      "behavior": null,
+      "payment_signal": "none",
+      "stance": "contradicts",
+      "hypothesis_ids": [
+        "H3"
+      ],
+      "independence_group": "vendor-frameio-v4",
+      "limitations": [
+        "与 E6 为同一厂商证据组。",
+        "公开文档证明厂商描述的能力，不证明每位客户的采用效果。",
+        "没有在本页核实跨渠道导入，不能因为未提及就认定不存在。",
+        "页面日期作为更新标示记录，不当作功能首次上线或初次发表日期。"
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "E6",
+      "url": "https://help.frame.io/en/articles/9105278-comments-panel-overview",
+      "title": "Comments Panel Overview",
+      "platform": "Frame.io V4 Knowledge Center",
+      "source_type": "vendor_documentation",
+      "published_at": null,
+      "retrieved_at": "2026-10-10",
+      "access": "full",
+      "excerpt": "Mark As Complete",
+      "summary": "官方文档列出完成状态、时间码排序、过滤、检索及 CSV/XML/纯文本/FIOJSON 导出，反驳基础任务处理缺失假设。",
+      "segment": "竞争产品能力资料，不是目标买家样本。",
+      "identity_basis": "unknown",
+      "behavior": null,
+      "payment_signal": "none",
+      "stance": "contradicts",
+      "hypothesis_ids": [
+        "H3"
+      ],
+      "independence_group": "vendor-frameio-v4",
+      "limitations": [
+        "与 E5 同一厂商，不计作两个独立市场证据。",
+        "不能证明跨渠道归集不存在，也不能证明新产品付费。",
+        "页面日期作为更新标示记录，不当作功能首次上线或初次发表日期。"
+      ],
+      "updated_at": "2026-09-09"
+    },
+    {
+      "id": "E7",
+      "url": "https://www.reddit.com/r/VideoEditors/comments/1uyxmik/how_do_you_deal_with_client_feedback_scattered/",
+      "title": "How do you deal with client feedback scattered across different apps?",
+      "platform": "Reddit / r/VideoEditors",
+      "source_type": "promotion",
+      "published_at": null,
+      "retrieved_at": "2026-10-10",
+      "access": "partial",
+      "excerpt": "I finally started building a small browser extension for myself.",
+      "summary": "作者自述正在开发将多来源反馈整理成任务列表的浏览器扩展并征求测试者；这是竞争线索，不是中立购买或效果证据。",
+      "segment": "自述十年专业剪辑经验，同时为工具开发者；真实身份与目标群体匹配未核实。",
+      "identity_basis": "self_reported",
+      "behavior": "自建工具并征集测试；原帖更新附商店链接，但本研究未打开或试用。",
+      "payment_signal": "none",
+      "stance": "context",
+      "hypothesis_ids": [
+        "H4",
+        "H5"
+      ],
+      "independence_group": "reddit-thread-1uyxmik",
+      "limitations": [
+        "存在明确开发者利益关系，从自然买家需求样本计数排除。",
+        "主帖精确日期未知；打开页约 3mo ago，正文更新为 2026-08-15。",
+        "未验证安装量、功能效果、付款或留存。"
+      ],
+      "updated_at": "2026-08-15"
+    }
+  ],
+  "limitations": [
+    "在 Skill 软件包开发期间完成的研究示例，不是独立 efficacy test，也没有市场验证或已验证收入结论。",
+    "自定义预算上限为 16 个查询/原文读取操作；执行 4 次 web 工具调用，包含 5 条搜索查询和 11 次打开/定位读取，涉及 8 个唯一原始页面，其中 7 页入选。时钟与文件操作不计入检索预算。",
+    "达到预算后停止，并未声称信息饱和。查询日志逐字保留实际执行词，包括 site.reddit.com 而非 site:reddit.com 的形式；结果并非严格域名过滤。",
+    "运行时 UTC 时钟与会话日期均为 2026-10-10；搜索索引与页面相对日期存在差异，不伪造精确发布日期。",
+    "英语公开材料有选择偏差；目标为自由职业剪辑师，但混入机构、团队和公司内编辑场景，身份及跨帖独立性不完整。",
+    "7 个来源页面不等于 7 位客户；E5/E6 同一厂商；E7 为推广/开发者研究，不能作为自然买家验证。",
+    "两篇较旧讨论作为历史背景；另打开的 2025 年 Frame.io 故障帖子未核实现状，因此不纳入现行缺陷证据。",
+    "竞争核验主要集中 Frame.io，未完整审计所有竞品和集成；未找到不等于不存在。",
+    "没有联系用户、发帖、购买或试用竞品；没有可信的时间损失基线、真实付款、留存及市场规模数据。",
+    "含糊反馈不能自动推导精确时间码；输入没有定位依据时必须保留待确认项。"
+  ],
+  "research_context": "package_development_example_not_independent_efficacy_test",
+  "operation_counts": {
+    "budget_cap": 16,
+    "web_tool_calls": 4,
+    "search_queries": 5,
+    "page_open_operations": 11,
+    "unique_opened_pages": 8,
+    "selected_source_pages": 7
+  }
+}

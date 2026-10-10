@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "idea": "SYNTHETIC FIXTURE: consolidate client feedback",
+  "research_date": "2026-10-10",
+  "mode": "custom",
+  "hypotheses": [{"id": "H1", "statement": "Users manually consolidate feedback"}],
+  "search_log": [{"query": "synthetic counter-query", "purpose": "counter", "outcome": "Fixture only; no real search executed"}],
+  "limitations": ["Synthetic fixture, never market evidence"],
+  "evidence": [{
+    "id": "E1",
+    "url": "https://example.com/discussion/1",
+    "title": "Synthetic discussion",
+    "platform": "Example forum",
+    "source_type": "user_discussion",
+    "published_at": null,
+    "retrieved_at": "2026-10-10",
+    "access": "partial",
+    "excerpt": "I collect revision notes in a spreadsheet.",
+    "summary": "Synthetic author describes manual consolidation; cost unknown.",
+    "segment": "Freelance editor; synthetic identity",
+    "identity_basis": "self_reported",
+    "behavior": "Collects notes in a spreadsheet",
+    "payment_signal": "unknown",
+    "stance": "supports",
+    "hypothesis_ids": ["H1"],
+    "independence_group": "example-thread-1",
+    "limitations": ["Synthetic data, not inspected real content"]
+  }]
+}
